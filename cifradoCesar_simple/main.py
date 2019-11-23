@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 """
 Programa de cifrado César simple
 Python ver. 2.x y 3.x 
