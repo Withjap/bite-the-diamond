@@ -16,19 +16,6 @@ win.resizable(0, 0)
 secc01 = ttk.LabelFrame(win, text="Cesar")
 secc01.grid(column=0, row=0)
 
-"""
-tabControl = ttk.Notebook(win)
-
-tabCesar = ttk.Frame(tabControl)
-tabControl.add(tabCesar, text='Cesar')
-
-tabBinario = ttk.Frame(tabControl)
-tabControl.add(tabBinario, text='Binario')
-tabControl.pack(expand=1, fill="both")
-
-secc02 = ttk.LabelFrame(tabBinario, text="Conversor Binario")
-secc02.grid(column=0, row=0)
-"""
 #####################################################################################
 
 def main():
