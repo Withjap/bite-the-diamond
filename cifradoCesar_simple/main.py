@@ -21,11 +21,9 @@ secc01.grid(column=0, row=0)
 def main():
 	valor=chCod.get()
 	if valor == 0:
-		labelResult.config(text=codificador((ingresoCesar.get()).lower(), 
-												int(spinCesar.get())))
+		labelResult.config(text=codificador((ingresoCesar.get()).lower(), int(spinCesar.get())))
 	if valor == 1:
-		labelResult.config(text=decodificador((ingresoCesar.get()).lower(), 
-												int(spinCesar.get())))
+		labelResult.config(text=decodificador((ingresoCesar.get()).lower(), int(spinCesar.get())))
 
 label = ttk.Label(secc01, text="Ingrese texto: ")
 label.grid(column=1, row=0)
@@ -56,27 +54,4 @@ checkDeco = tk.Radiobutton(secc01, text=codDec[1], variable=chCod, value=1)
 checkDeco.grid(column=4,row=1, sticky=tk.W)
 
 #####################################################################################
-"""
-def binario():
-	labelBin.config(text=codBinario(converBinario.get()))
-
-label02 = ttk.Label(secc02, text="Ingrese texto: ")
-label02.grid(column=0, row=0, sticky=tk.W)
-
-scrolW = 30
-scrolH = 3
-
-aConvBin = tk.StringVar()
-converBinario = scrolledtext.ScrolledText(secc02, width=scrolW, height=scrolH, wrap=tk.WORD)
-converBinario.grid(column=0, sticky=tk.EW, columnspan=3)
-
-labelBin = ttk.Label(secc02, text="")
-labelBin.grid(column=0, row=2)
-
-buttonBin = ttk.Button(secc02, text="Convertir", command=binario)
-buttonBin.grid(column=3,row=2,sticky=tk.W)
-"""
-
-#####################################################################################
-
 win.mainloop()
