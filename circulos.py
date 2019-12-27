@@ -1,3 +1,8 @@
+"""
+Prueba del modulo pygame
+Detecta el pasar del cursor sobre un circulo haciendolo cambiar de color
+Al clickear sobre el circulo cambia a un color random
+"""
 import pygame
 from pygame.locals import *
 from sys import exit
